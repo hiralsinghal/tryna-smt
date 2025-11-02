@@ -1,14 +1,20 @@
-body {
-    background-color: #EB5B00;
+header {
+    background-color: #ebc83c;
+    text-align: center;
 }
 
-h1 {
-    background-color: #FFCC00;
-    text-align: center;
+div.flex-container {
+    flex-direction: column;
 }
 
 img {
     align-items: center;
-    width: 130px;
+    width: 500px;
     height: auto;
+    align-self: center;
+}
+
+.fact {
+    background-color: #FFCC00;
+    color: black;
 }
