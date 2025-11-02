@@ -3,18 +3,40 @@ header {
     text-align: center;
 }
 
+body {
+    background-image: linear-gradient(135deg, #4f0200, #860000);
+}
+
+h1 {
+    background-color: #ebc83c;
+    text-align: center;
+}
+
 div.flex-container {
     flex-direction: column;
 }
 
 img {
-    align-items: center;
     width: 500px;
     height: auto;
-    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fact {
-    background-color: #FFCC00;
+    background-color: #ce3d01;
     color: black;
+}
+
+ul {
+    background-color:#face91;
+}
+
+.dress {
+    background-color: #ce3d01;
+    color: black;
+}
+
+ul {
+    background-color:#face91;
 }
